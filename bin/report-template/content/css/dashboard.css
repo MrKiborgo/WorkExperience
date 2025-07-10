@@ -1,0 +1,476 @@
+/*
+   Licensed to the Apache Software Foundation (ASF) under one or more
+   contributor license agreements.  See the NOTICE file distributed with
+   this work for additional information regarding copyright ownership.
+   The ASF licenses this file to You under the Apache License, Version 2.0
+   (the "License"); you may not use this file except in compliance with
+   the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+*/
+#stats td, th
+{
+    width: 9%;//140px;
+    height: 30px;
+}
+#stats td
+{
+    text-align: center;
+}
+#stats th
+{
+    font-weight:bold;
+}
+.blue
+{
+    background-color: #2a2a2a;
+}
+#errors td, th
+{
+    text-align: center;
+    width: 400px;
+    height: 30px;
+}
+#errors td
+{
+
+}
+#errors th
+{
+    font-weight:bold;
+}
+
+/* Dark theme styles */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.panel {
+    background-color: #1e1e1e;
+    border-color: #333;
+}
+
+.panel-default > .panel-heading {
+    background-color: #2a2a2a;
+    border-color: #333;
+    color: #e0e0e0;
+}
+
+.panel-body {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.table {
+    color: #e0e0e0;
+}
+
+.table-bordered {
+    border-color: #333;
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+    border-color: #333;
+}
+
+.navbar-default {
+    background-color: #1e1e1e;
+    border-color: #333;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+    color: #e0e0e0;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #ffffff;
+}
+
+.sidebar {
+    background-color: #1e1e1e;
+}
+
+.nav > li > a {
+    color: #e0e0e0;
+}
+
+.nav > li > a:hover {
+    background-color: #2a2a2a;
+    color: #ffffff;
+}
+
+.dashboard-title {
+    color: #e0e0e0;
+}
+
+/* Additional dark theme styles to catch remaining light elements */
+
+/* Page wrapper background */
+#page-wrapper {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Links */
+a, a:hover, a:focus, a:active {
+    color: #4da6ff;
+}
+
+/* Input fields and form controls */
+input, select, textarea, .form-control {
+    background-color: #333;
+    color: #e0e0e0;
+    border-color: #444;
+}
+
+input:focus, select:focus, textarea:focus, .form-control:focus {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    border-color: #555;
+}
+
+/* Buttons */
+.btn-default {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    border-color: #444;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    border-color: #555;
+}
+
+/* Dropdown menus */
+.dropdown-menu {
+    background-color: #1e1e1e;
+    border-color: #333;
+}
+
+.dropdown-menu > li > a {
+    color: #e0e0e0;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: #2a2a2a;
+    color: #ffffff;
+}
+
+/* Modal dialogs */
+.modal-content {
+    background-color: #1e1e1e;
+    border-color: #333;
+}
+
+.modal-header, .modal-footer {
+    border-color: #333;
+}
+
+/* Charts and graph elements */
+.flot-chart-content {
+    background-color: #1e1e1e;
+}
+
+/* Fix for any SVG elements */
+svg text {
+    fill: #e0e0e0;
+}
+
+svg path, svg line, svg rect {
+    stroke: #555;
+}
+
+/* Fix for any remaining white backgrounds */
+.bg-white, .bg-light, [class*="bg-light-"] {
+    background-color: #1e1e1e !important;
+    color: #e0e0e0 !important;
+}
+
+/* Fix for any remaining black text */
+.text-dark, .text-black {
+    color: #e0e0e0 !important;
+}
+
+/* Fix for any remaining light borders */
+.border, .border-light, [class*="border-light-"] {
+    border-color: #333 !important;
+}
+
+/* Fix for any tooltips or popovers */
+.tooltip-inner, .popover {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    border-color: #333;
+}
+
+.popover-title {
+    background-color: #333;
+    border-color: #444;
+}
+
+/* Fix for any badges or labels */
+.badge, .label {
+    background-color: #333;
+    color: #e0e0e0;
+}
+
+/* Fix for any alerts */
+.alert {
+    background-color: #2a2a2a;
+    border-color: #333;
+    color: #e0e0e0;
+}
+
+/* Fix for any code blocks or pre elements */
+pre, code {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    border-color: #333;
+}
+
+/* Fix for any well elements */
+.well {
+    background-color: #1e1e1e;
+    border-color: #333;
+}
+
+/* Fix for any pagination elements */
+.pagination > li > a, .pagination > li > span {
+    background-color: #2a2a2a;
+    border-color: #333;
+    color: #e0e0e0;
+}
+
+.pagination > .active > a, .pagination > .active > span {
+    background-color: #3a3a3a;
+    border-color: #444;
+    color: #ffffff;
+}
+
+/* Fix for any breadcrumb elements */
+.breadcrumb {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.breadcrumb > li + li:before {
+    color: #999;
+}
+
+/* Fix for any progress bars */
+.progress {
+    background-color: #2a2a2a;
+}
+
+/* Fix for any list groups */
+.list-group-item {
+    background-color: #1e1e1e;
+    border-color: #333;
+    color: #e0e0e0;
+}
+
+/* Additional fixes for menu items and navigation */
+
+/* Fix for navbar and menu headers */
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a,
+.sidebar .sidebar-nav.navbar-collapse a,
+.sidebar-nav li a {
+    color: #e0e0e0 !important;
+}
+
+/* Fix for active menu items */
+.sidebar ul li.active > a,
+.nav-second-level li.active > a,
+.nav-third-level li.active > a {
+    background-color: #2a2a2a !important;
+    color: #ffffff !important;
+}
+
+/* Fix for menu hover states */
+.sidebar ul li a:hover,
+.sidebar ul li a:focus,
+.sidebar ul li a:active {
+    background-color: #2a2a2a !important;
+    color: #ffffff !important;
+}
+
+/* Fix for dropdown arrows in menus */
+.sidebar .arrow {
+    color: #e0e0e0;
+}
+
+/* Fix for metisMenu active items */
+.metismenu .active > a {
+    background-color: #2a2a2a !important;
+    color: #ffffff !important;
+}
+
+/* Fix for any remaining white backgrounds in the menu */
+.sidebar,
+.sidebar-nav,
+.navbar-static-side,
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    background-color: #1e1e1e !important;
+    border-color: #333 !important;
+}
+
+/* Fix for any remaining white backgrounds in the content area */
+.white-bg,
+.wrapper-content,
+.ibox-content,
+.ibox-title {
+    background-color: #1e1e1e !important;
+    color: #e0e0e0 !important;
+    border-color: #333 !important;
+}
+
+/* Fix for any remaining issues with the navbar */
+.navbar {
+    background-color: #1e1e1e !important;
+    border-color: #333 !important;
+}
+
+/* Fix for any remaining issues with the navbar toggle button */
+.navbar-default .navbar-toggle {
+    border-color: #444;
+    background-color: #2a2a2a;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #3a3a3a;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #e0e0e0;
+}
+
+/* Fix for any remaining issues with the dropdown menus */
+.dropdown-menu {
+    background-color: #1e1e1e !important;
+    border-color: #333 !important;
+}
+
+.dropdown-menu > li > a {
+    color: #e0e0e0 !important;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background-color: #2a2a2a !important;
+    color: #ffffff !important;
+}
+
+/* Fix for any remaining issues with the nav tabs */
+.nav-tabs > li > a {
+    background-color: #1e1e1e;
+    border-color: #333;
+    color: #e0e0e0;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    background-color: #2a2a2a;
+    border-color: #444;
+    color: #ffffff;
+}
+
+.nav-tabs > li > a:hover {
+    background-color: #2a2a2a;
+    border-color: #444;
+}
+
+/* Fix for any remaining issues with the tab content */
+.tab-content {
+    background-color: #1e1e1e;
+    border-color: #333;
+    color: #e0e0e0;
+}
+
+/* Fix for any remaining issues with the metisMenu plugin */
+.metismenu > li.active {
+    border-left-color: #4da6ff !important;
+}
+
+/* Fix for any remaining issues with the fa icons */
+.fa {
+    color: #e0e0e0;
+}
+
+/* Fix for any remaining issues with the page title */
+.page-title,
+.page-header,
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #e0e0e0 !important;
+}
+
+/* Fix for the top-level Dashboard menu item */
+.nav#side-menu > li > a,
+.sidebar ul.nav#side-menu > li > a,
+#side-menu > li > a {
+    color: #e0e0e0 !important;
+    background-color: #1e1e1e !important;
+}
+
+/* Fix for the top-level Dashboard menu item on hover */
+.nav#side-menu > li > a:hover,
+.sidebar ul.nav#side-menu > li > a:hover,
+#side-menu > li > a:hover {
+    color: #ffffff !important;
+    background-color: #2a2a2a !important;
+}
+
+/* Additional fix for any remaining menu items */
+.nav > li > a,
+.navbar-nav > li > a,
+.nav-second-level > li > a,
+.nav-third-level > li > a {
+    color: #e0e0e0 !important;
+}
+
+/* Fix for any remaining menu items with !important to override any other styles */
+#wrapper .sidebar .nav a,
+#wrapper .sidebar a,
+#wrapper .nav a,
+#wrapper a.nav-link {
+    color: #e0e0e0 !important;
+}
+
+/* Fix for any remaining menu backgrounds */
+.sidebar-nav,
+.sidebar .nav,
+.sidebar ul,
+.sidebar li,
+.sidebar a {
+    background-color: #1e1e1e !important;
+}
+
+/* Fix for any remaining menu items with direct ID targeting */
+#side-menu li a {
+    color: #e0e0e0 !important;
+    background-color: #1e1e1e !important;
+}
+
+#side-menu li a:hover {
+    color: #ffffff !important;
+    background-color: #2a2a2a !important;
+}

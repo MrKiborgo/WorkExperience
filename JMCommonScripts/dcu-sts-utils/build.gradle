@@ -1,0 +1,26 @@
+plugins { id 'java-library' }
+
+group   = 'com.company'
+version = '1.0.0'
+
+repositories { mavenCentral() }
+
+ext.jmeterVer = '5.6.3'   // keep in sync with your runtime JMeter
+
+dependencies {
+    compileOnly "org.apache.jmeter:ApacheJMeter_core:${jmeterVer}"
+    compileOnly "org.apache.jmeter:ApacheJMeter_functions:${jmeterVer}"
+    compileOnly "org.apache.jmeter:ApacheJMeter_http:${jmeterVer}"  // STS hits HTTP
+
+    // GroupInitUtil requires JMeter thread context classes
+    compileOnly "org.apache.jmeter:ApacheJMeter_components:${jmeterVer}"
+
+    implementation 'org.slf4j:slf4j-api:1.7.36'    // if STS logs directly
+    
+    // Apache HTTP client dependencies for STS.java
+    implementation 'org.apache.httpcomponents:httpclient:4.5.14'
+    implementation 'org.apache.httpcomponents:httpcore:4.4.16'
+}
+
+java { toolchain.languageVersion.set(JavaLanguageVersion.of(11)) } // match your JDK
+jar  { archiveBaseName.set('dcu-sts-utils'); archiveVersion.set('') }

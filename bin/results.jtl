@@ -1,0 +1,154 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1733260355653,6,DEBUG - POC,200,OK,POC - NoData4Jenkins 1-1,text,true,,1596,0,1,1,null,0,0,0
+1733260358253,445,groovy - script variables,200,OK,POC - NoData4Jenkins 1-1,text,true,,0,0,1,1,null,0,0,0
+1733260362010,117,groovy - initialise global variables,200,OK,POC - NoData4Jenkins 1-1,text,true,,0,0,1,1,null,0,0,0
+1733260362128,86,groovy - track data,200,OK,POC - NoData4Jenkins 1-1,text,true,,0,0,1,1,null,0,0,0
+1733260362215,0,DEBUG - initialise,200,OK,POC - NoData4Jenkins 1-1,text,true,,1819,0,1,1,null,0,0,0
+1733260362256,504,001.1 /caseworking/home,303,See Other,POC - NoData4Jenkins 1-1,text,true,,879,592,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/home,504,0,306
+1733260362765,86,001.2 /caseworking/oauth/authorize,303,See Other,POC - NoData4Jenkins 1-1,text,true,,1040,804,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/oauth/authorize?state=3d42b20d-4ce2-44a6-9a68-c1b90be574dc,86,0,0
+1733260362855,437,001.3 /auth/realms/dap/protocol/openid-connect/auth,200,OK,POC - NoData4Jenkins 1-1,text,true,,8739,846,1,1,https://keycloak-dev.np.ebsa.homeoffice.gov.uk/auth/realms/dap/protocol/openid-connect/auth?access_type=online&client_id=frontend&redirect_uri=https%3A%2F%2Fdap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk%2Fcaseworking%2Foauth%2Fcallback&response_type=code&scope=email+profile+openid&state=3d42b20d-4ce2-44a6-9a68-c1b90be574dc,437,0,296
+1733260362215,1027,01_DFT_Launch_Homepage,200,"Number of samples in transaction : 3, number of failing samples : 0",POC - NoData4Jenkins 1-1,,true,,10658,2242,1,1,null,1027,55,602
+1733260363299,210,002.1 /auth/realms/dap/login-actions/authenticate,302,Found,POC - NoData4Jenkins 1-1,,true,,3377,2011,1,1,https://keycloak-dev.np.ebsa.homeoffice.gov.uk/auth/realms/dap/login-actions/authenticate?session_code=LQRhfSq1P75mi8BbaUok1P0itxY702QT0gwu2KT_WsM&execution=17f3858e-1de4-4a0e-87ca-40b16992b3ba&client_id=frontend&tab_id=bmT7mX2oS1E,210,0,0
+1733260363518,226,002.2 /caseworking/oauth/callback,303,See Other,POC - NoData4Jenkins 1-1,text,true,,8962,1049,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/oauth/callback?state=3d42b20d-4ce2-44a6-9a68-c1b90be574dc&session_state=f90d5527-64cc-4089-ba62-a7248a46a0ce&iss=https%3A%2F%2Fkeycloak-dev.np.ebsa.homeoffice.gov.uk%2Fauth%2Frealms%2Fdap&code=980017b9-27ab-436d-abef-db5d657442d7.f90d5527-64cc-4089-ba62-a7248a46a0ce.5b24e703-a0c5-4136-949a-9c7363fe5f92,226,0,0
+1733260363750,143,002.3 /,200,OK,POC - NoData4Jenkins 1-1,text,true,,1697,8930,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/,143,0,0
+1733260363897,197,002.4 /caseworking/v2/home,200,OK,POC - NoData4Jenkins 1-1,text,true,,784,8920,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/v2/home,197,0,0
+1733260364106,124,002.5 /caseworking/v2/home,200,OK,POC - NoData4Jenkins 1-1,text,true,,784,8920,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/v2/home,124,0,0
+1733260363297,900,02_DFT_Login,200,"Number of samples in transaction : 5, number of failing samples : 0",POC - NoData4Jenkins 1-1,,true,,15604,29830,1,1,null,900,34,0
+1733260364232,2,DEBUG - login,200,OK,POC - NoData4Jenkins 1-1,text,true,,4975,0,1,1,null,0,0,0
+1733260364235,103,003.1 /counter/,200,OK,POC - NoData4Jenkins 1-1,text,true,,1226,8913,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/,103,0,0
+1733260364344,108,003.2 /counter/oauth/token,200,OK,POC - NoData4Jenkins 1-1,text,true,,5208,8941,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/oauth/token,107,0,0
+1733260364234,211,03_DFT_Select_Find_Fast_Track_Application,200,"Number of samples in transaction : 2, number of failing samples : 0",POC - NoData4Jenkins 1-1,,true,,6434,17854,1,1,null,210,8,0
+1733260364455,136,004.1 /search/permissions,200,OK,POC - NoData4Jenkins 1-1,text,true,,2007,8927,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/search/permissions,135,0,0
+1733260364594,103,004.2 /search/config,200,OK,POC - NoData4Jenkins 1-1,text,true,,519,8922,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/search/config,103,0,0
+1733260364702,203,004.3 /search/query,200,OK,POC - NoData4Jenkins 1-1,text,true,,4259,9102,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/search/query,203,0,0
+1733260364911,1,DEBUG - DFT search,200,OK,POC - NoData4Jenkins 1-1,text,true,,5291,0,1,1,null,0,0,0
+1733260364912,1,DEBUG - FindApp,200,OK,POC - NoData4Jenkins 1-1,text,true,,5292,0,1,1,null,0,0,0
+1733260364913,29,groovy - under12,200,OK,POC - NoData4Jenkins 1-1,text,true,,0,0,1,1,null,0,0,0
+1733260364943,211,004.4 /counter/api/fast-track/application/appID,200,OK,POC - NoData4Jenkins 1-1,text,true,,877,8993,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/api/fast-track/application/d5b991bb-ef5f-4642-a8d9-d7dff712e2a4,211,0,0
+1733260365158,847,004.5 /application/summary/appID,200,OK,POC - NoData4Jenkins 1-1,text,true,,25893,8965,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/application/summary/d5b991bb-ef5f-4642-a8d9-d7dff712e2a4,811,0,0
+1733260366007,9,groovy - init counter,200,OK,POC - NoData4Jenkins 1-1,text,true,,0,0,1,1,null,0,0,0
+1733260366018,345,WS.1.1 WebSocket Open Connection,101,Switching Protocols,POC - NoData4Jenkins 1-1,,true,,239,9002,1,1,null,0,0,345
+1733260366365,82,WS.1.2 WebSocket Ping/Pong,200,OK,POC - NoData4Jenkins 1-1,,true,,2,6,1,1,null,0,0,0
+1733260366448,2,WS.1.3 WebSocket Single Write Sampler,200,OK,POC - NoData4Jenkins 1-1,,true,,0,62,1,1,null,0,0,0
+1733260366451,43,WS.1.4 WebSocket Single Read Sampler,200,OK,POC - NoData4Jenkins 1-1,text,true,,755,0,1,1,null,0,0,0
+1733260366514,84,WS.1.6 WebSocket Close,1000,Connection closed; close reason: 'sampler requested close'.,POC - NoData4Jenkins 1-1,text,true,,27,31,1,1,null,0,0,0
+1733260366007,565,Websock_01,200,"Number of samples in transaction : 8, number of failing samples : 0",POC - NoData4Jenkins 1-1,,true,,1023,9101,1,1,null,0,26,345
+1733260364453,2096,04_DFT_Search_Application,200,"Number of samples in transaction : 20, number of failing samples : 0",POC - NoData4Jenkins 1-1,,true,,45161,54010,1,1,null,1463,49,345
+1733260366599,0,DEBUG - FindApp,200,OK,POC - NoData4Jenkins 1-1,text,true,,5478,0,1,1,null,0,0,0
+1733260366600,544,005.1 /application/summary/appID,200,OK,POC - NoData4Jenkins 1-1,text,true,,25893,8965,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/application/summary/d5b991bb-ef5f-4642-a8d9-d7dff712e2a4,516,0,0
+1733260366600,544,05_DFT_Select_Record_Appoinment,200,"Number of samples in transaction : 1, number of failing samples : 0",POC - NoData4Jenkins 1-1,,true,,25893,8965,1,1,null,516,3,0
+1733260367149,301,006.1 /counter/api/fast-track/tasks/record-attendance,204,No Content,POC - NoData4Jenkins 1-1,,true,,180,9356,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/api/fast-track/tasks/record-attendance,0,0,0
+1733260367453,393,006.2 /application/summary/appID,200,OK,POC - NoData4Jenkins 1-1,text,true,,25893,8965,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/application/summary/d5b991bb-ef5f-4642-a8d9-d7dff712e2a4,357,0,0
+1733260367147,694,06_DFT_Save_Record_Appointment,200,"Number of samples in transaction : 2, number of failing samples : 0",POC - NoData4Jenkins 1-1,,true,,26073,18321,1,1,null,357,8,0
+1733260367849,2,DEBUG - SelectApp,200,OK,POC - NoData4Jenkins 1-1,text,true,,5626,0,1,1,null,0,0,0
+1733260367852,119,008.1 /sign-out,302,Found,POC - NoData4Jenkins 1-1,,true,,577,9033,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/sign-out,119,0,0
+1733260367975,210,008.2 /caseworking/oauth/logout,303,See Other,POC - NoData4Jenkins 1-1,text,true,,900,9205,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/oauth/logout?redirect=https%3A%2F%2Fdap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk%2Fcaseworking%2Fsigned-out,210,0,0
+1733260368189,100,008.3 /caseworking/signed-out,200,OK,POC - NoData4Jenkins 1-1,text,true,,1697,896,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/signed-out,100,0,0
+1733260368292,135,008.4 /redirect,303,See Other,POC - NoData4Jenkins 1-1,text,true,,819,864,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/favicon.ico,135,0,0
+1733260368431,94,008.5 /caseworking/v2/signed-out,200,OK,POC - NoData4Jenkins 1-1,text,true,,502,805,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/v2/signed-out,94,0,0
+1733260368528,82,008.6 /caseworking/oauth/authorize,303,See Other,POC - NoData4Jenkins 1-1,text,true,,1040,919,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/oauth/authorize?state=a66a97d2-1df9-4466-8888-2da5672e85c2,82,0,0
+1733260368612,115,008.7 /auth/realms/dap/protocol/openid-connect/auth,200,OK,POC - NoData4Jenkins 1-1,text,true,,9999,2603,1,1,https://keycloak-dev.np.ebsa.homeoffice.gov.uk/auth/realms/dap/protocol/openid-connect/auth?access_type=online&client_id=frontend&redirect_uri=https%3A%2F%2Fdap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk%2Fcaseworking%2Foauth%2Fcallback&response_type=code&scope=email+profile+openid&state=a66a97d2-1df9-4466-8888-2da5672e85c2,115,0,0
+1733260367852,855,8_DFT_Logout,200,"Number of samples in transaction : 7, number of failing samples : 0",POC - NoData4Jenkins 1-1,,true,,15534,24325,1,1,null,855,25,0
+1733260368732,1,DEBUG - Logout,200,OK,POC - NoData4Jenkins 1-1,text,true,,5818,0,1,1,null,0,0,0
+1733260794757,2,DEBUG - POC,200,OK,POC - NoData4Jenkins 1-1,text,true,,1597,0,1,1,null,0,0,0
+1733260799377,248,groovy - script variables,200,OK,POC - NoData4Jenkins 1-1,text,true,,0,0,1,1,null,0,0,0
+1733260807622,190,groovy - initialise global variables,200,OK,POC - NoData4Jenkins 1-1,text,true,,0,0,1,1,null,0,0,0
+1733260807813,99,groovy - track data,200,OK,POC - NoData4Jenkins 1-1,text,true,,0,0,1,1,null,0,0,0
+1733260807912,1,DEBUG - initialise,200,OK,POC - NoData4Jenkins 1-1,text,true,,1819,0,1,1,null,0,0,0
+1733260807958,516,001.1 /caseworking/home,303,See Other,POC - NoData4Jenkins 1-1,text,true,,879,592,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/home,516,0,383
+1733260808480,88,001.2 /caseworking/oauth/authorize,303,See Other,POC - NoData4Jenkins 1-1,text,true,,1040,804,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/oauth/authorize?state=cccacde0-a748-439d-b0fe-9f0f6a73fbaa,88,0,0
+1733260808573,598,001.3 /auth/realms/dap/protocol/openid-connect/auth,200,OK,POC - NoData4Jenkins 1-1,text,true,,8741,846,1,1,https://keycloak-dev.np.ebsa.homeoffice.gov.uk/auth/realms/dap/protocol/openid-connect/auth?access_type=online&client_id=frontend&redirect_uri=https%3A%2F%2Fdap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk%2Fcaseworking%2Foauth%2Fcallback&response_type=code&scope=email+profile+openid&state=cccacde0-a748-439d-b0fe-9f0f6a73fbaa,598,0,473
+1733260807913,1202,01_DFT_Launch_Homepage,200,"Number of samples in transaction : 3, number of failing samples : 0",POC - NoData4Jenkins 1-1,,true,,10660,2242,1,1,null,1202,57,856
+1733260809174,160,002.1 /auth/realms/dap/login-actions/authenticate,302,Found,POC - NoData4Jenkins 1-1,,true,,3377,2013,1,1,https://keycloak-dev.np.ebsa.homeoffice.gov.uk/auth/realms/dap/login-actions/authenticate?session_code=cO9ZXnZW1t3OrqseLTV-7OfbDyi7aIEcs3wwTEEzb1o&execution=17f3858e-1de4-4a0e-87ca-40b16992b3ba&client_id=frontend&tab_id=uLpLc--FHnk,160,0,0
+1733260809340,210,002.2 /caseworking/oauth/callback,303,See Other,POC - NoData4Jenkins 1-1,text,true,,8962,1049,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/oauth/callback?state=cccacde0-a748-439d-b0fe-9f0f6a73fbaa&session_state=b2fe9143-a185-4a6c-9602-878e9fb42aa5&iss=https%3A%2F%2Fkeycloak-dev.np.ebsa.homeoffice.gov.uk%2Fauth%2Frealms%2Fdap&code=a066d2de-6603-4af3-8c3e-d816db7b0f4a.b2fe9143-a185-4a6c-9602-878e9fb42aa5.5b24e703-a0c5-4136-949a-9c7363fe5f92,209,0,0
+1733260809556,125,002.3 /,200,OK,POC - NoData4Jenkins 1-1,text,true,,1697,8930,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/,125,0,0
+1733260809684,139,002.4 /caseworking/v2/home,200,OK,POC - NoData4Jenkins 1-1,text,true,,784,8920,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/v2/home,139,0,0
+1733260809840,127,002.5 /caseworking/v2/home,200,OK,POC - NoData4Jenkins 1-1,text,true,,784,8920,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/v2/home,127,0,0
+1733260809172,761,02_DFT_Login,200,"Number of samples in transaction : 5, number of failing samples : 0",POC - NoData4Jenkins 1-1,,true,,15604,29832,1,1,null,760,35,0
+1733260809969,2,DEBUG - login,200,OK,POC - NoData4Jenkins 1-1,text,true,,4976,0,1,1,null,0,0,0
+1733260809973,100,003.1 /counter/,200,OK,POC - NoData4Jenkins 1-1,text,true,,1226,8913,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/,100,0,0
+1733260810081,103,003.2 /counter/oauth/token,200,OK,POC - NoData4Jenkins 1-1,text,true,,5208,8941,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/oauth/token,103,0,0
+1733260809971,203,03_DFT_Select_Find_Fast_Track_Application,200,"Number of samples in transaction : 2, number of failing samples : 0",POC - NoData4Jenkins 1-1,,true,,6434,17854,1,1,null,203,11,0
+1733260810187,109,004.1 /search/permissions,200,OK,POC - NoData4Jenkins 1-1,text,true,,2007,8927,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/search/permissions,109,0,0
+1733260810300,179,004.2 /search/config,200,OK,POC - NoData4Jenkins 1-1,text,true,,519,8922,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/search/config,179,0,0
+1733260810483,286,004.3 /search/query,200,OK,POC - NoData4Jenkins 1-1,text,true,,4259,9102,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/search/query,286,0,0
+1733260810774,0,DEBUG - DFT search,200,OK,POC - NoData4Jenkins 1-1,text,true,,5292,0,1,1,null,0,0,0
+1733260810774,1,DEBUG - FindApp,200,OK,POC - NoData4Jenkins 1-1,text,true,,5292,0,1,1,null,0,0,0
+1733260810775,29,groovy - under12,200,OK,POC - NoData4Jenkins 1-1,text,true,,0,0,1,1,null,0,0,0
+1733260810805,146,004.4 /counter/api/fast-track/application/appID,200,OK,POC - NoData4Jenkins 1-1,text,true,,877,8993,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/api/fast-track/application/d5b991bb-ef5f-4642-a8d9-d7dff712e2a4,146,0,0
+1733260810955,625,004.5 /application/summary/appID,200,OK,POC - NoData4Jenkins 1-1,text,true,,25893,8965,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/application/summary/d5b991bb-ef5f-4642-a8d9-d7dff712e2a4,603,0,0
+1733260811583,9,groovy - init counter,200,OK,POC - NoData4Jenkins 1-1,text,true,,0,0,1,1,null,0,0,0
+1733260811595,342,WS.1.1 WebSocket Open Connection,101,Switching Protocols,POC - NoData4Jenkins 1-1,,true,,239,9002,1,1,null,0,0,342
+1733260811940,35,WS.1.2 WebSocket Ping/Pong,200,OK,POC - NoData4Jenkins 1-1,,true,,2,6,1,1,null,0,0,0
+1733260811976,1,WS.1.3 WebSocket Single Write Sampler,200,OK,POC - NoData4Jenkins 1-1,,true,,0,62,1,1,null,0,0,0
+1733260811978,123,WS.1.4 WebSocket Single Read Sampler,200,OK,POC - NoData4Jenkins 1-1,text,true,,755,0,1,1,null,0,0,0
+1733260812115,73,WS.1.6 WebSocket Close,1000,Connection closed; close reason: 'sampler requested close'.,POC - NoData4Jenkins 1-1,text,true,,27,31,1,1,null,0,0,0
+1733260811583,583,Websock_01,200,"Number of samples in transaction : 8, number of failing samples : 0",POC - NoData4Jenkins 1-1,,true,,1023,9101,1,1,null,0,23,342
+1733260810185,1958,04_DFT_Search_Application,200,"Number of samples in transaction : 20, number of failing samples : 0",POC - NoData4Jenkins 1-1,,true,,45162,54010,1,1,null,1323,47,342
+1733260812190,2,DEBUG - FindApp,200,OK,POC - NoData4Jenkins 1-1,text,true,,5478,0,1,1,null,0,0,0
+1733260812193,562,005.1 /application/summary/appID,200,OK,POC - NoData4Jenkins 1-1,text,true,,25893,8965,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/application/summary/d5b991bb-ef5f-4642-a8d9-d7dff712e2a4,540,0,0
+1733260812192,562,05_DFT_Select_Record_Appoinment,200,"Number of samples in transaction : 1, number of failing samples : 0",POC - NoData4Jenkins 1-1,,true,,25893,8965,1,1,null,540,4,0
+1733260812760,261,006.1 /counter/api/fast-track/tasks/record-attendance,204,No Content,POC - NoData4Jenkins 1-1,,true,,180,9356,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/api/fast-track/tasks/record-attendance,0,0,0
+1733260813024,444,006.2 /application/summary/appID,200,OK,POC - NoData4Jenkins 1-1,text,true,,25893,8965,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/application/summary/d5b991bb-ef5f-4642-a8d9-d7dff712e2a4,424,0,0
+1733260812758,705,06_DFT_Save_Record_Appointment,200,"Number of samples in transaction : 2, number of failing samples : 0",POC - NoData4Jenkins 1-1,,true,,26073,18321,1,1,null,424,8,0
+1733260813472,1,DEBUG - SelectApp,200,OK,POC - NoData4Jenkins 1-1,text,true,,5627,0,1,1,null,0,0,0
+1733260813474,127,008.1 /sign-out,302,Found,POC - NoData4Jenkins 1-1,,true,,577,9033,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/sign-out,127,0,0
+1733260813606,212,008.2 /caseworking/oauth/logout,303,See Other,POC - NoData4Jenkins 1-1,text,true,,900,9205,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/oauth/logout?redirect=https%3A%2F%2Fdap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk%2Fcaseworking%2Fsigned-out,212,0,0
+1733260813821,80,008.3 /caseworking/signed-out,200,OK,POC - NoData4Jenkins 1-1,text,true,,1697,896,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/signed-out,80,0,0
+1733260813904,221,008.4 /redirect,303,See Other,POC - NoData4Jenkins 1-1,text,true,,819,864,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/favicon.ico,221,0,0
+1733260814127,88,008.5 /caseworking/v2/signed-out,200,OK,POC - NoData4Jenkins 1-1,text,true,,502,805,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/v2/signed-out,88,0,0
+1733260814218,84,008.6 /caseworking/oauth/authorize,303,See Other,POC - NoData4Jenkins 1-1,text,true,,1040,919,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/oauth/authorize?state=6046b9c4-5b4b-4067-986d-c91fb0c5027d,84,0,0
+1733260814307,131,008.7 /auth/realms/dap/protocol/openid-connect/auth,200,OK,POC - NoData4Jenkins 1-1,text,true,,10001,2605,1,1,https://keycloak-dev.np.ebsa.homeoffice.gov.uk/auth/realms/dap/protocol/openid-connect/auth?access_type=online&client_id=frontend&redirect_uri=https%3A%2F%2Fdap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk%2Fcaseworking%2Foauth%2Fcallback&response_type=code&scope=email+profile+openid&state=6046b9c4-5b4b-4067-986d-c91fb0c5027d,131,0,0
+1733260813473,943,8_DFT_Logout,200,"Number of samples in transaction : 7, number of failing samples : 0",POC - NoData4Jenkins 1-1,,true,,15536,24327,1,1,null,943,27,0
+1733260814444,0,DEBUG - Logout,200,OK,POC - NoData4Jenkins 1-1,text,true,,5818,0,1,1,null,0,0,0
+1733261009677,2,DEBUG - POC,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,1626,0,1,1,null,0,0,0
+1733261017507,248,groovy - script variables,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1733261022532,130,groovy - initialise global variables,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1733261022663,90,groovy - track data,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1733261022754,1,DEBUG - initialise,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,1848,0,1,1,null,0,0,0
+1733261022792,648,001.1 /caseworking/home,303,See Other,jp@gc - Ultimate Thread Group 1-1,text,true,,879,592,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/home,648,0,506
+1733261023444,93,001.2 /caseworking/oauth/authorize,303,See Other,jp@gc - Ultimate Thread Group 1-1,text,true,,1040,804,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/oauth/authorize?state=f4cc9a03-53ff-48f5-9a53-7f5a377aad73,93,0,0
+1733261023545,559,001.3 /auth/realms/dap/protocol/openid-connect/auth,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,8741,846,1,1,https://keycloak-dev.np.ebsa.homeoffice.gov.uk/auth/realms/dap/protocol/openid-connect/auth?access_type=online&client_id=frontend&redirect_uri=https%3A%2F%2Fdap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk%2Fcaseworking%2Foauth%2Fcallback&response_type=code&scope=email+profile+openid&state=f4cc9a03-53ff-48f5-9a53-7f5a377aad73,559,0,298
+1733261022755,1300,01_DFT_Launch_Homepage,200,"Number of samples in transaction : 3, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,10660,2242,1,1,null,1300,54,804
+1733261024114,269,002.1 /auth/realms/dap/login-actions/authenticate,302,Found,jp@gc - Ultimate Thread Group 1-1,,true,,3377,2013,1,1,https://keycloak-dev.np.ebsa.homeoffice.gov.uk/auth/realms/dap/login-actions/authenticate?session_code=rkrCq55SVwJdioG7kJuToYzDxwxTXT3qpLN9q9Uhvrs&execution=17f3858e-1de4-4a0e-87ca-40b16992b3ba&client_id=frontend&tab_id=Ih0rskD6kic,269,0,0
+1733261024393,195,002.2 /caseworking/oauth/callback,303,See Other,jp@gc - Ultimate Thread Group 1-1,text,true,,8962,1049,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/oauth/callback?state=f4cc9a03-53ff-48f5-9a53-7f5a377aad73&session_state=6ac72003-55f9-4d43-aa57-a33a753aea48&iss=https%3A%2F%2Fkeycloak-dev.np.ebsa.homeoffice.gov.uk%2Fauth%2Frealms%2Fdap&code=e59a88e8-ad99-4134-95f3-ae4d676aea26.6ac72003-55f9-4d43-aa57-a33a753aea48.5b24e703-a0c5-4136-949a-9c7363fe5f92,194,0,0
+1733261024592,103,002.3 /,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,1697,8930,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/,103,0,0
+1733261024699,186,002.4 /caseworking/v2/home,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,784,8920,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/v2/home,186,0,0
+1733261024896,196,002.5 /caseworking/v2/home,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,784,8920,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/v2/home,196,0,0
+1733261024109,949,02_DFT_Login,200,"Number of samples in transaction : 5, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,15604,29832,1,1,null,948,36,0
+1733261025095,2,DEBUG - login,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,5014,0,1,1,null,0,0,0
+1733261025100,105,003.1 /counter/,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,1226,8913,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/,105,0,0
+1733261025214,205,003.2 /counter/oauth/token,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,5208,8941,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/oauth/token,204,0,0
+1733261025097,310,03_DFT_Select_Find_Fast_Track_Application,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,6434,17854,1,1,null,309,13,0
+1733261025422,201,004.1 /search/permissions,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2007,8927,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/search/permissions,201,0,0
+1733261025626,148,004.2 /search/config,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,519,8922,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/search/config,148,0,0
+1733261025779,148,004.3 /search/query,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4259,9102,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/search/query,147,0,0
+1733261025935,1,DEBUG - DFT search,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,5329,0,1,1,null,0,0,0
+1733261025937,1,DEBUG - FindApp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,5330,0,1,1,null,0,0,0
+1733261025938,54,groovy - under12,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1733261025993,146,004.4 /counter/api/fast-track/application/appID,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,877,8993,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/api/fast-track/application/d5b991bb-ef5f-4642-a8d9-d7dff712e2a4,146,0,0
+1733261026143,663,004.5 /application/summary/appID,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,25893,8965,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/application/summary/d5b991bb-ef5f-4642-a8d9-d7dff712e2a4,641,0,0
+1733261026807,11,groovy - init counter,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1733261026822,330,WS.1.1 WebSocket Open Connection,101,Switching Protocols,jp@gc - Ultimate Thread Group 1-1,,true,,239,9002,1,1,null,0,0,330
+1733261027155,37,WS.1.2 WebSocket Ping/Pong,200,OK,jp@gc - Ultimate Thread Group 1-1,,true,,2,6,1,1,null,0,0,0
+1733261027193,2,WS.1.3 WebSocket Single Write Sampler,200,OK,jp@gc - Ultimate Thread Group 1-1,,true,,0,62,1,1,null,0,0,0
+1733261027196,39,WS.1.4 WebSocket Single Read Sampler,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,755,0,1,1,null,0,0,0
+1733261027250,35,WS.1.6 WebSocket Close,1000,Connection closed; close reason: 'sampler requested close'.,jp@gc - Ultimate Thread Group 1-1,text,true,,27,31,1,1,null,0,0,0
+1733261026807,454,Websock_01,200,"Number of samples in transaction : 8, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,1023,9101,1,1,null,0,24,330
+1733261025420,1816,04_DFT_Search_Application,200,"Number of samples in transaction : 20, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,45237,54010,1,1,null,1283,50,330
+1733261027286,0,DEBUG - FindApp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,5516,0,1,1,null,0,0,0
+1733261027288,407,005.1 /application/summary/appID,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,25893,8965,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/application/summary/d5b991bb-ef5f-4642-a8d9-d7dff712e2a4,387,0,0
+1733261027287,407,05_DFT_Select_Record_Appoinment,200,"Number of samples in transaction : 1, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,25893,8965,1,1,null,387,4,0
+1733261027700,194,006.1 /counter/api/fast-track/tasks/record-attendance,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,180,9356,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/api/fast-track/tasks/record-attendance,0,0,0
+1733261027898,446,006.2 /application/summary/appID,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,25893,8965,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/application/summary/d5b991bb-ef5f-4642-a8d9-d7dff712e2a4,426,0,0
+1733261027699,640,06_DFT_Save_Record_Appointment,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,26073,18321,1,1,null,426,7,0
+1733261028347,1,DEBUG - SelectApp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,5665,0,1,1,null,0,0,0
+1733261028350,139,008.1 /sign-out,302,Found,jp@gc - Ultimate Thread Group 1-1,,true,,577,9033,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/sign-out,139,0,0
+1733261028494,199,008.2 /caseworking/oauth/logout,303,See Other,jp@gc - Ultimate Thread Group 1-1,text,true,,900,9205,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/oauth/logout?redirect=https%3A%2F%2Fdap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk%2Fcaseworking%2Fsigned-out,199,0,0
+1733261028697,80,008.3 /caseworking/signed-out,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,1697,896,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/signed-out,80,0,0
+1733261028780,218,008.4 /redirect,303,See Other,jp@gc - Ultimate Thread Group 1-1,text,true,,819,864,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/favicon.ico,218,0,0
+1733261029002,81,008.5 /caseworking/v2/signed-out,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,502,805,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/v2/signed-out,81,0,0
+1733261029084,81,008.6 /caseworking/oauth/authorize,303,See Other,jp@gc - Ultimate Thread Group 1-1,text,true,,1040,919,1,1,https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/oauth/authorize?state=15b525c1-6be6-4b92-a406-bbfca3d1927f,81,0,0
+1733261029168,137,008.7 /auth/realms/dap/protocol/openid-connect/auth,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,10001,2605,1,1,https://keycloak-dev.np.ebsa.homeoffice.gov.uk/auth/realms/dap/protocol/openid-connect/auth?access_type=online&client_id=frontend&redirect_uri=https%3A%2F%2Fdap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk%2Fcaseworking%2Foauth%2Fcallback&response_type=code&scope=email+profile+openid&state=15b525c1-6be6-4b92-a406-bbfca3d1927f,137,0,0
+1733261028348,935,8_DFT_Logout,200,"Number of samples in transaction : 7, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,15536,24327,1,1,null,935,25,0
+1733261029308,1,DEBUG - Logout,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,5856,0,1,1,null,0,0,0

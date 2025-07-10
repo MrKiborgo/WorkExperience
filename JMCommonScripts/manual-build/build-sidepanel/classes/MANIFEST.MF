@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Implementation-Title: Gemini AI Side Panel for JMeter
+Implementation-Version: 1.0.0
+Implementation-Vendor: JMeter Community
+Plugin-Class: com.company.GeminiPluginLoader
+Main-Class: com.company.GeminiPluginLoader
+

@@ -1,0 +1,20 @@
+{
+  "steps" : [ {
+    "stepMessage" : "Original Recording",
+    "testPlanFilepath" : "/home/davidcampbell/Documents/apache-jmeter-5.6.3/bin/Recording/snapshot-1730107251058.jmx",
+    "recordingTraceFilepath" : "/home/davidcampbell/Documents/apache-jmeter-5.6.3/bin/Recording/recording-1730107251066.jtl",
+    "replayTraceFilepath" : null,
+    "timestamp" : "2024-10-28T09:20:51.068466Z",
+    "fatherTimeStamp" : null,
+    "notes" : "Automatically generated iteration after recording"
+  }, {
+    "stepMessage" : "Replay result: 58 requests pending resolution.",
+    "testPlanFilepath" : "/home/davidcampbell/Documents/apache-jmeter-5.6.3/bin/Recording/snapshot-1730107254266.jmx",
+    "recordingTraceFilepath" : null,
+    "replayTraceFilepath" : "/home/davidcampbell/Documents/apache-jmeter-5.6.3/bin/Replay/replay-1730107254303.jtl",
+    "timestamp" : "2024-10-28T09:23:37.735546Z",
+    "fatherTimeStamp" : null,
+    "notes" : "Automatically generated iteration after replay"
+  } ],
+  "historyId" : "1730066246157"
+}

@@ -1,0 +1,20 @@
+2025-07-01 09:33:34,203 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-07-01 09:33:34,237 INFO o.a.j.JMeter: Loading user properties from: /home/davidcampbell/Dropbox/Cursor/JMeter/images/jmeter-and-plugins/bin/user.properties
+2025-07-01 09:33:34,238 INFO o.a.j.JMeter: Loading system properties from: /home/davidcampbell/Dropbox/Cursor/JMeter/images/jmeter-and-plugins/bin/system.properties
+2025-07-01 09:33:34,248 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-07-01 09:33:34,248 INFO o.a.j.JMeter: Version 5.6.3
+2025-07-01 09:33:34,248 INFO o.a.j.JMeter: java.version=21.0.7
+2025-07-01 09:33:34,248 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2025-07-01 09:33:34,248 INFO o.a.j.JMeter: os.name=Linux
+2025-07-01 09:33:34,248 INFO o.a.j.JMeter: os.arch=amd64
+2025-07-01 09:33:34,248 INFO o.a.j.JMeter: os.version=6.8.0-62-generic
+2025-07-01 09:33:34,248 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-07-01 09:33:34,248 INFO o.a.j.JMeter: java.awt.headless=null
+2025-07-01 09:33:34,249 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-07-01 09:33:34,249 INFO o.a.j.JMeter: Available Processors =12
+2025-07-01 09:33:34,259 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-07-01 09:33:34,260 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-07-01 09:33:34,260 INFO o.a.j.JMeter: JMeterHome=/home/davidcampbell/Dropbox/Cursor/JMeter/images/jmeter-and-plugins
+2025-07-01 09:33:34,260 INFO o.a.j.JMeter: user.dir  =/home/davidcampbell/Dropbox/Cursor/JMeter/images/jmeter-and-plugins
+2025-07-01 09:33:34,260 INFO o.a.j.JMeter: PWD       =/home/davidcampbell/Dropbox/Cursor/JMeter/images/jmeter-and-plugins
+2025-07-01 09:33:34,261 INFO o.a.j.JMeter: IP: 192.168.0.74 Name: dcubuntu FullName: dcubuntu

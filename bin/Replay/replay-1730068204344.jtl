@@ -1,0 +1,2331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="24" it="0" lt="0" ct="24" ts="1730068204451" s="false" lb="001 /caseworking/home" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk: Name or service not known" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2541" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Priority: u=0, i
+TE: trailers
+har-ref: request_0001
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk: Name or service not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/home</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068204477" s="false" lb="002 /caseworking/oauth/authorize" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Priority: u=0, i
+TE: trailers
+har-ref: request_0002
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/oauth/authorize?state=3d30ea13-2cb5-4d97-a658-2c5570d43f41</java.net.URL>
+</httpSample>
+<httpSample t="25" it="0" lt="0" ct="25" ts="1730068204479" s="false" lb="003 /auth/realms/dap/protocol/openid-connect/auth" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: keycloak-dev.np.ebsa.homeoffice.gov.uk: Name or service not known" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2519" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: keycloak-dev.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Priority: u=0, i
+TE: trailers
+har-ref: request_0003
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: keycloak-dev.np.ebsa.homeoffice.gov.uk: Name or service not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://keycloak-dev.np.ebsa.homeoffice.gov.uk/auth/realms/dap/protocol/openid-connect/auth?access_type=online&amp;client_id=frontend&amp;redirect_uri=%24%7BORIGINAL%3Dhttps%3A%2F%2Fdap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk%2Fcaseworking%2Foauth%2FcallbackREPLACEWITH%3Dauthurl%7D&amp;response_type=code&amp;scope=email+profile+openid&amp;state=3d30ea13-2cb5-4d97-a658-2c5570d43f41</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068204505" s="false" lb="004 /auth/realms/dap/login-actions/authenticate" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 48: https://keycloak-dev.np.ebsa.homeoffice.gov.uk/${ORIGINAL=/auth/realms/dap/login-actions/authenticate?session_code=4-i9p8D-HqFelLE_8O_ePbf7q4LP6r5vljJXVbyYKzg&amp;execution=17f3858e-1de4-4a0e-87ca-40b16992b3ba&amp;client_id=frontend&amp;tab_id=rfjekJ0iHQkREPLACEWITH=code}" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="1395" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">java.net.URISyntaxException: Illegal character in path at index 48: https://keycloak-dev.np.ebsa.homeoffice.gov.uk/${ORIGINAL=/auth/realms/dap/login-actions/authenticate?session_code=4-i9p8D-HqFelLE_8O_ePbf7q4LP6r5vljJXVbyYKzg&amp;execution=17f3858e-1de4-4a0e-87ca-40b16992b3ba&amp;client_id=frontend&amp;tab_id=rfjekJ0iHQkREPLACEWITH=code}
+	at java.base/java.net.URI$Parser.fail(URI.java:2913)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3084)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3166)
+	at java.base/java.net.URI$Parser.parse(URI.java:3114)
+	at java.base/java.net.URI.&lt;init&gt;(URI.java:600)
+	at java.base/java.net.URL.toURI(URL.java:1061)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:625)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://keycloak-dev.np.ebsa.homeoffice.gov.uk/${ORIGINAL=/auth/realms/dap/login-actions/authenticate?session_code=4-i9p8D-HqFelLE_8O_ePbf7q4LP6r5vljJXVbyYKzg&amp;execution=17f3858e-1de4-4a0e-87ca-40b16992b3ba&amp;client_id=frontend&amp;tab_id=rfjekJ0iHQkREPLACEWITH=code}</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1730068204506" s="false" lb="005 /caseworking/oauth/callback" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Priority: u=0, i
+TE: trailers
+har-ref: request_0005
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/oauth/callback?state=3d30ea13-2cb5-4d97-a658-2c5570d43f41&amp;session_state=9653cd99-a744-4741-a955-885064533796&amp;iss=%24%7BORIGINAL%3Dhttps%3A%2F%2Fkeycloak-dev.np.ebsa.homeoffice.gov.uk%2Fauth%2Frealms%2FdapREPLACEWITH%3Dauthurl%7D&amp;code=9af789ac-4192-4de7-b4e7-5c9fc8d10d81.9653cd99-a744-4741-a955-885064533796.5b24e703-a0c5-4136-949a-9c7363fe5f92</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068204507" s="false" lb="006 /" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Priority: u=0, i
+TE: trailers
+har-ref: request_0006
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068204508" s="false" lb="007 /caseworking/v2/home" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/REPLACEWITH=authurl}
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=4
+TE: trailers
+har-ref: request_0007
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/v2/home</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068204508" s="false" lb="008 /caseworking/v2/home" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/REPLACEWITH=authurl}
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=4
+TE: trailers
+har-ref: request_0008
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/v2/home</java.net.URL>
+</httpSample>
+<sample t="50" it="9" lt="0" ct="50" ts="1730068204450" s="false" lb="PAGE_01 - /caseworking/signed-out" rc="" rm="Number of samples in transaction : 8, number of failing samples : 8" tn="Thead Group HAR Imported 1-1" dt="" de="" by="17730" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068220723" s="false" lb="009 /counter/" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+har-ref: request_0009
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068220724" s="false" lb="010 /counter/oauth/token" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: application/json
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/REPLACEWITH=authurl}
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=4
+TE: trailers
+har-ref: request_0010
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/oauth/token</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068220725" s="false" lb="011 /search/permissions" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/REPLACEWITH=authurl}
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=4
+TE: trailers
+har-ref: request_0011
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/search/permissions</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068220726" s="false" lb="012 /search/config" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/REPLACEWITH=authurl}
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=4
+TE: trailers
+har-ref: request_0012
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/search/config</java.net.URL>
+</httpSample>
+<sample t="0" it="4" lt="0" ct="0" ts="1730068220722" s="false" lb="PAGE_02 - /counter/" rc="" rm="Number of samples in transaction : 4, number of failing samples : 4" tn="Thead Group HAR Imported 1-1" dt="" de="" by="9020" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068229594" s="false" lb="013 /search/query" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: application/json
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/REPLACEWITH=authurl}
+Content-Type: application/json
+Origin: https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=0
+TE: trailers
+har-ref: request_0013
+Content-Length: 37
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;applicationReference&quot;:&quot;3418101402&quot;}</queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/search/query</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068229595" s="false" lb="014 /counter/api/fast-track/application/3de45e75-2914-488f-be8b-faeb35eb375c" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: application/json
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/REPLACEWITH=authurl}
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=4
+TE: trailers
+har-ref: request_0014
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/api/fast-track/application/3de45e75-2914-488f-be8b-faeb35eb375c</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068229596" s="false" lb="015 /application/summary/3de45e75-2914-488f-be8b-faeb35eb375c" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/REPLACEWITH=authurl}
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=4
+TE: trailers
+har-ref: request_0015
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/application/summary/3de45e75-2914-488f-be8b-faeb35eb375c</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068229596" s="false" lb="" rc="Non HTTP response code: java.net.MalformedURLException" rm="Non HTTP response message: unknown protocol: wss" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="799" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">java.net.MalformedURLException: unknown protocol: wss
+	at java.base/java.net.URL.&lt;init&gt;(URL.java:452)
+	at java.base/java.net.URL.&lt;init&gt;(URL.java:338)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.getUrl(HTTPSamplerBase.java:1135)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <queryString class="java.lang.String"></queryString>
+  <null/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068229597" s="false" lb="017 /application/summary/3de45e75-2914-488f-be8b-faeb35eb375c" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/REPLACEWITH=authurl}
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=4
+TE: trailers
+har-ref: request_0017
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/application/summary/3de45e75-2914-488f-be8b-faeb35eb375c</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1730068229597" s="false" lb="018 /counter/api/fast-track/tasks/record-attendance" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: application/json
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/REPLACEWITH=authurl}
+content-type: application/json
+Origin: https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=0
+TE: trailers
+har-ref: request_0018
+Content-Length: 256
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;applicationId&quot;:&quot;3de45e75-2914-488f-be8b-faeb35eb375c&quot;,&quot;who&quot;:&quot;Applicant&quot;,&quot;continueWithAppointment&quot;:true,&quot;rebooked&quot;:false,&quot;cannotContinueAsFastTrack&quot;:false,&quot;attendedOnApplicantsBehalfName&quot;:null,&quot;attendedOnApplicantsBehalfRelationship&quot;:null,&quot;caseNote&quot;:null}</queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/api/fast-track/tasks/record-attendance</java.net.URL>
+</httpSample>
+<sample t="1" it="4" lt="0" ct="1" ts="1730068229593" s="false" lb="PAGE_03 - /search/query" rc="" rm="Number of samples in transaction : 6, number of failing samples : 6" tn="Thead Group HAR Imported 1-1" dt="" de="" by="12074" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1730068248199" s="false" lb="019 /application/summary/3de45e75-2914-488f-be8b-faeb35eb375c" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/REPLACEWITH=authurl}
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=4
+TE: trailers
+har-ref: request_0019
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/application/summary/3de45e75-2914-488f-be8b-faeb35eb375c</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068248209" s="false" lb="" rc="Non HTTP response code: java.net.MalformedURLException" rm="Non HTTP response message: unknown protocol: wss" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="799" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">java.net.MalformedURLException: unknown protocol: wss
+	at java.base/java.net.URL.&lt;init&gt;(URL.java:452)
+	at java.base/java.net.URL.&lt;init&gt;(URL.java:338)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.getUrl(HTTPSamplerBase.java:1135)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <queryString class="java.lang.String"></queryString>
+  <null/>
+</httpSample>
+<sample t="1" it="9" lt="0" ct="1" ts="1730068248199" s="false" lb="PAGE_04 - /application/summary/3de45e75-2914-488f-be8b-faeb35eb375c" rc="" rm="Number of samples in transaction : 2, number of failing samples : 2" tn="Thead Group HAR Imported 1-1" dt="" de="" by="3054" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068254574" s="false" lb="021 /application/summary/3de45e75-2914-488f-be8b-faeb35eb375c" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/REPLACEWITH=authurl}
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=4
+TE: trailers
+har-ref: request_0021
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/application/summary/3de45e75-2914-488f-be8b-faeb35eb375c</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068254576" s="false" lb="022 /counter/api/fast-track/document/passport/3de45e75-2914-488f-be8b-faeb35eb375c" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: application/json
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/REPLACEWITH=authurl}
+content-type: application/json
+Origin: https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=0
+TE: trailers
+har-ref: request_0022
+Content-Length: 102
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;passportNumber&quot;:&quot;415949305&quot;,&quot;applicationType&quot;:&quot;RENEWAL&quot;,&quot;forenames&quot;:&quot;Michel&quot;,&quot;surname&quot;:&quot;Morissette&quot;}</queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/api/fast-track/document/passport/3de45e75-2914-488f-be8b-faeb35eb375c</java.net.URL>
+</httpSample>
+<sample t="0" it="2" lt="0" ct="0" ts="1730068254574" s="false" lb="PAGE_05 - /application/summary/3de45e75-2914-488f-be8b-faeb35eb375c" rc="" rm="Number of samples in transaction : 2, number of failing samples : 2" tn="Thead Group HAR Imported 1-1" dt="" de="" by="4510" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<httpSample t="53" it="0" lt="0" ct="53" ts="1730068267181" s="false" lb="023 /application/summary/3de45e75-2914-488f-be8b-faeb35eb375c" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk: Name or service not known" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2541" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/REPLACEWITH=authurl}
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=4
+TE: trailers
+har-ref: request_0023
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk: Name or service not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/application/summary/3de45e75-2914-488f-be8b-faeb35eb375c</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068267243" s="false" lb="" rc="Non HTTP response code: java.net.MalformedURLException" rm="Non HTTP response message: unknown protocol: wss" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="799" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">java.net.MalformedURLException: unknown protocol: wss
+	at java.base/java.net.URL.&lt;init&gt;(URL.java:452)
+	at java.base/java.net.URL.&lt;init&gt;(URL.java:338)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.getUrl(HTTPSamplerBase.java:1135)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <queryString class="java.lang.String"></queryString>
+  <null/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1730068267243" s="false" lb="025 /counter/api/fast-track/tasks/examination" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Connection: keep-alive
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/REPLACEWITH=authurl}
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+TE: trailers
+har-ref: request_0025
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/api/fast-track/tasks/examination?applicationId=3de45e75-2914-488f-be8b-faeb35eb375c</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068267244" s="false" lb="026 /examine/application-status" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/REPLACEWITH=authurl}
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+TE: trailers
+har-ref: request_0026
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/examine/application-status?applicationId=3de45e75-2914-488f-be8b-faeb35eb375c&amp;counterExamination=true</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068267245" s="false" lb="027 /application/summary/3de45e75-2914-488f-be8b-faeb35eb375c" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/examine/application-status?applicationId=3de45e75-2914-488f-be8b-faeb35eb375c&amp;counterExamination=trueREPLACEWITH=authurl}
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=4
+TE: trailers
+har-ref: request_0027
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/application/summary/3de45e75-2914-488f-be8b-faeb35eb375c</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068267246" s="false" lb="028 /documents-view/api/3de45e75-2914-488f-be8b-faeb35eb375c/documents" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/examine/application-status?applicationId=3de45e75-2914-488f-be8b-faeb35eb375c&amp;counterExamination=trueREPLACEWITH=authurl}
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=4
+TE: trailers
+har-ref: request_0028
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/documents-view/api/3de45e75-2914-488f-be8b-faeb35eb375c/documents?sortBy=receivedDate&amp;sortDirection=desc</java.net.URL>
+</httpSample>
+<sample t="54" it="11" lt="0" ct="54" ts="1730068267181" s="false" lb="PAGE_06 - /application/summary/3de45e75-2914-488f-be8b-faeb35eb375c" rc="" rm="Number of samples in transaction : 6, number of failing samples : 6" tn="Thead Group HAR Imported 1-1" dt="" de="" by="12360" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068273353" s="false" lb="029 /examine/case/task/5984816" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+x-request-type: XHR
+Connection: keep-alive
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/examine/application-status?applicationId=3de45e75-2914-488f-be8b-faeb35eb375c&amp;counterExamination=trueREPLACEWITH=authurl}
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=0
+TE: trailers
+har-ref: request_0029
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/examine/case/task/5984816?applicationId=3de45e75-2914-488f-be8b-faeb35eb375c</java.net.URL>
+</httpSample>
+<sample t="0" it="1" lt="0" ct="0" ts="1730068273353" s="false" lb="PAGE_07 - /examine/case/task/5984816" rc="" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="Thead Group HAR Imported 1-1" dt="" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<httpSample t="155" it="0" lt="0" ct="155" ts="1730068280176" s="false" lb="030 /examine/case/task" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk: Name or service not known" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2541" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/examine/application-status?applicationId=3de45e75-2914-488f-be8b-faeb35eb375c&amp;counterExamination=trueREPLACEWITH=authurl}
+Origin: https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=0
+TE: trailers
+har-ref: request_0030
+Content-Length: 1132
+Content-Type: multipart/form-data; boundary=WNH3tIzzbDVZH609TH_tjXTTMw_P9e; charset=UTF-8
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk: Name or service not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">--WNH3tIzzbDVZH609TH_tjXTTMw_P9e&#xd;
+Content-Disposition: form-data; name=&quot;taskId&quot;&#xd;
+Content-Type: text/plain; charset=UTF-8&#xd;
+Content-Transfer-Encoding: 8bit&#xd;
+&#xd;
+5984816&#xd;
+--WNH3tIzzbDVZH609TH_tjXTTMw_P9e&#xd;
+Content-Disposition: form-data; name=&quot;applicationId&quot;&#xd;
+Content-Type: text/plain; charset=UTF-8&#xd;
+Content-Transfer-Encoding: 8bit&#xd;
+&#xd;
+3de45e75-2914-488f-be8b-faeb35eb375c&#xd;
+--WNH3tIzzbDVZH609TH_tjXTTMw_P9e&#xd;
+Content-Disposition: form-data; name=&quot;surname&quot;&#xd;
+Content-Type: text/plain; charset=UTF-8&#xd;
+Content-Transfer-Encoding: 8bit&#xd;
+&#xd;
+Morissette&#xd;
+--WNH3tIzzbDVZH609TH_tjXTTMw_P9e&#xd;
+Content-Disposition: form-data; name=&quot;taskType&quot;&#xd;
+Content-Type: text/plain; charset=UTF-8&#xd;
+Content-Transfer-Encoding: 8bit&#xd;
+&#xd;
+PHOTO_QUALITY&#xd;
+--WNH3tIzzbDVZH609TH_tjXTTMw_P9e&#xd;
+Content-Disposition: form-data; name=&quot;caseworkState&quot;&#xd;
+Content-Type: text/plain; charset=UTF-8&#xd;
+Content-Transfer-Encoding: 8bit&#xd;
+&#xd;
+InExamination&#xd;
+--WNH3tIzzbDVZH609TH_tjXTTMw_P9e&#xd;
+Content-Disposition: form-data; name=&quot;reviewable-df1d10b1-860d-4c25-8552-ed5a31546635&quot;&#xd;
+Content-Type: text/plain; charset=UTF-8&#xd;
+Content-Transfer-Encoding: 8bit&#xd;
+&#xd;
+CLEAR&#xd;
+--WNH3tIzzbDVZH609TH_tjXTTMw_P9e--&#xd;
+</queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/examine/case/task</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068280332" s="false" lb="031 /examine/application-tasks" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+x-request-type: XHR
+Connection: keep-alive
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/examine/application-status?applicationId=3de45e75-2914-488f-be8b-faeb35eb375c&amp;counterExamination=trueREPLACEWITH=authurl}
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+TE: trailers
+har-ref: request_0031
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/examine/application-tasks?applicationId=3de45e75-2914-488f-be8b-faeb35eb375c</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068280332" s="false" lb="032 /examine/document-alert" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+x-request-type: XHR
+Connection: keep-alive
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/examine/application-status?applicationId=3de45e75-2914-488f-be8b-faeb35eb375c&amp;counterExamination=trueREPLACEWITH=authurl}
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+TE: trailers
+har-ref: request_0032
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/examine/document-alert?applicationId=3de45e75-2914-488f-be8b-faeb35eb375c</java.net.URL>
+</httpSample>
+<sample t="155" it="1" lt="0" ct="155" ts="1730068280176" s="false" lb="PAGE_08 - /examine/case/task" rc="" rm="Number of samples in transaction : 3, number of failing samples : 3" tn="Thead Group HAR Imported 1-1" dt="" de="" by="7051" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1730068287841" s="false" lb="033 /examine/case/submit" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Content-Type: application/x-www-form-urlencoded
+Origin: https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+Connection: keep-alive
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/examine/application-status?applicationId=3de45e75-2914-488f-be8b-faeb35eb375c&amp;counterExamination=trueREPLACEWITH=authurl}
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+TE: trailers
+har-ref: request_0033
+Content-Length: 76
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">applicationId=3de45e75-2914-488f-be8b-faeb35eb375c&amp;inCounterExamination=true</queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/examine/case/submit</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1730068287842" s="false" lb="034 /examine/case/submit/3de45e75-2914-488f-be8b-faeb35eb375c/complete" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/examine/application-status?applicationId=3de45e75-2914-488f-be8b-faeb35eb375c&amp;counterExamination=trueREPLACEWITH=authurl}
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+TE: trailers
+har-ref: request_0034
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/examine/case/submit/3de45e75-2914-488f-be8b-faeb35eb375c/complete</java.net.URL>
+</httpSample>
+<sample t="2" it="0" lt="0" ct="2" ts="1730068287841" s="false" lb="PAGE_09 - /examine/case/submit" rc="" rm="Number of samples in transaction : 2, number of failing samples : 2" tn="Thead Group HAR Imported 1-1" dt="" de="" by="4510" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<httpSample t="260" it="0" lt="0" ct="260" ts="1730068303793" s="false" lb="035 /counter/" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk: Name or service not known" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2541" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Priority: u=0, i
+TE: trailers
+har-ref: request_0035
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk: Name or service not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068304054" s="false" lb="036 /counter/oauth/token" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: application/json
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/REPLACEWITH=authurl}
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=4
+TE: trailers
+har-ref: request_0036
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/oauth/token</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068304055" s="false" lb="037 /counter/api/fast-track/application/3de45e75-2914-488f-be8b-faeb35eb375c" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: application/json
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/REPLACEWITH=authurl}
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=4
+TE: trailers
+har-ref: request_0037
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/api/fast-track/application/3de45e75-2914-488f-be8b-faeb35eb375c</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068304056" s="false" lb="" rc="Non HTTP response code: java.net.MalformedURLException" rm="Non HTTP response message: unknown protocol: wss" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="799" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">java.net.MalformedURLException: unknown protocol: wss
+	at java.base/java.net.URL.&lt;init&gt;(URL.java:452)
+	at java.base/java.net.URL.&lt;init&gt;(URL.java:338)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.getUrl(HTTPSamplerBase.java:1135)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <queryString class="java.lang.String"></queryString>
+  <null/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068304056" s="false" lb="039 /application/summary/3de45e75-2914-488f-be8b-faeb35eb375c" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/REPLACEWITH=authurl}
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=4
+TE: trailers
+har-ref: request_0039
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/application/summary/3de45e75-2914-488f-be8b-faeb35eb375c</java.net.URL>
+</httpSample>
+<sample t="260" it="3" lt="0" ct="260" ts="1730068303793" s="false" lb="PAGE_10 - /counter/" rc="" rm="Number of samples in transaction : 5, number of failing samples : 5" tn="Thead Group HAR Imported 1-1" dt="" de="" by="10105" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<httpSample t="33" it="0" lt="0" ct="33" ts="1730068316211" s="false" lb="040 /counter/api/fast-track/application/3de45e75-2914-488f-be8b-faeb35eb375c/appointment/finish" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk: Name or service not known" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2541" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: application/json
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/REPLACEWITH=authurl}
+content-type: application/json
+Origin: https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=0
+TE: trailers
+har-ref: request_0040
+Content-Length: 0
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk: Name or service not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/api/fast-track/application/3de45e75-2914-488f-be8b-faeb35eb375c/appointment/finish</java.net.URL>
+</httpSample>
+<sample t="33" it="1" lt="0" ct="33" ts="1730068316211" s="false" lb="PAGE_11 - /counter/api/fast-track/application/3de45e75-2914-488f-be8b-faeb35eb375c/appointment/finish" rc="" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="Thead Group HAR Imported 1-1" dt="" de="" by="2541" sby="0" sc="1" ec="1" ng="1" na="2" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<httpSample t="71" it="0" lt="0" ct="71" ts="1730068367705" s="false" lb="041 /sign-out" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk: Name or service not known" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2541" sby="0" sc="1" ec="1" ng="1" na="1" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Connection: keep-alive
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/REPLACEWITH=authurl}
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+TE: trailers
+har-ref: request_0041
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk: Name or service not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/sign-out</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068367786" s="false" lb="042 /caseworking/oauth/logout" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="1" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/REPLACEWITH=authurl}
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+TE: trailers
+har-ref: request_0042
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/oauth/logout?redirect=%24%7BORIGINAL%3Dhttps%3A%2F%2Fdap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk%2Fcaseworking%2Fsigned-outREPLACEWITH%3Dauthurl%7D</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068367787" s="false" lb="043 /caseworking/signed-out" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="1" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/counter/REPLACEWITH=authurl}
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+TE: trailers
+har-ref: request_0043
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/signed-out</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068367788" s="false" lb="044 /caseworking/v2/signed-out" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="1" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/signed-outREPLACEWITH=authurl}
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=4
+TE: trailers
+har-ref: request_0044
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/v2/signed-out</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1730068367788" s="false" lb="045 /caseworking/oauth/authorize" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2255" sby="0" sc="1" ec="1" ng="1" na="1" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/signed-outREPLACEWITH=authurl}
+Connection: keep-alive
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=6
+TE: trailers
+har-ref: request_0045
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/caseworking/oauth/authorize?state=97b646a3-7001-433e-9b26-082664b141b7</java.net.URL>
+</httpSample>
+<httpSample t="130" it="0" lt="0" ct="130" ts="1730068367789" s="false" lb="046 /auth/realms/dap/protocol/openid-connect/auth" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: keycloak-dev.np.ebsa.homeoffice.gov.uk: Name or service not known" tn="Thead Group HAR Imported 1-1" dt="text" de="" by="2519" sby="0" sc="1" ec="1" ng="1" na="1" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: keycloak-dev.np.ebsa.homeoffice.gov.uk
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: ${ORIGINAL=https://dap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk/REPLACEWITH=authurl}
+Connection: keep-alive
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-site
+Priority: u=6
+TE: trailers
+har-ref: request_0046
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: keycloak-dev.np.ebsa.homeoffice.gov.uk: Name or service not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://keycloak-dev.np.ebsa.homeoffice.gov.uk/auth/realms/dap/protocol/openid-connect/auth?access_type=online&amp;client_id=frontend&amp;redirect_uri=%24%7BORIGINAL%3Dhttps%3A%2F%2Fdap-frontend-ho-hmpo-nft1-i-cw-bac.np.ebsa.homeoffice.gov.uk%2Fcaseworking%2Foauth%2FcallbackREPLACEWITH%3Dauthurl%7D&amp;response_type=code&amp;scope=email+profile+openid&amp;state=97b646a3-7001-433e-9b26-082664b141b7</java.net.URL>
+</httpSample>
+<sample t="201" it="14" lt="0" ct="201" ts="1730068367705" s="false" lb="PAGE_12 - /sign-out" rc="" rm="Number of samples in transaction : 6, number of failing samples : 6" tn="Thead Group HAR Imported 1-1" dt="" de="" by="14080" sby="0" sc="1" ec="1" ng="1" na="1" hn="ubuntu">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+
+</testResults>

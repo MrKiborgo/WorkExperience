@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<!--
+  ~ Licensed to the Apache Software Foundation (ASF) under one or more
+  ~ contributor license agreements.  See the NOTICE file distributed with
+  ~ this work for additional information regarding copyright ownership.
+  ~ The ASF licenses this file to you under the Apache License, Version 2.0
+  ~ (the "License"); you may not use this file except in compliance with
+  ~ the License.  You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<!--
+    See the DTD for allowable elements and attributes.
+ -->
+<!DOCTYPE templates SYSTEM "templates.dtd">
+<templates>
+    <template isTestPlan="true">
+        <name>Template</name>
+        <fileName>/bin/templates/Template.jmx</fileName>
+        <description><![CDATA[
+            <h1>Comprehensive JMeter Performance Test Template</h1>
+            <h2>Overview</h2>
+            <p>A modular and reusable performance test template featuring:</p>
+            <ul>
+                <li>Global environment variables and HTTP defaults configuration</li>
+                <li>Cookie and cache management</li>
+                <li>Modular test fragments for easy reuse</li>
+                <li>STS (Simple Table Server) integration for dynamic data management</li>
+                <li>Multiple thread group types (Debug, Standard, Ultimate Thread Groups)</li>
+                <li>Comprehensive debugging and analysis tools</li>
+                <li>Prometheus metrics integration for monitoring</li>
+                <li>Pacing and think time management</li>
+            </ul>
+            <h2>Configuration</h2>
+            <p>To use this template:</p>
+            <ul>
+                <li>Configure global variables in the "Global Env Variables" section</li>
+                <li>Update HTTP Request Defaults with your target server details</li>
+                <li>Modify the example scripts in the test fragments to match your requirements</li>
+                <li>Enable/disable thread groups as needed for your test scenario</li>
+                <li>Configure STS server details if using dynamic data management</li>
+            </ul>
+            <h2>Features</h2>
+            <ul>
+                <li><b>Modular Design:</b> Test fragments can be reused across multiple thread groups</li>
+                <li><b>STS Integration:</b> KEEP, DEL, ADDFIRST, ADDLAST operations for dynamic test data</li>
+                <li><b>Debug Support:</b> Conditional debug samplers and comprehensive logging</li>
+                <li><b>Monitoring:</b> Built-in Prometheus metrics for performance monitoring</li>
+                <li><b>Analysis Tools:</b> Response time graphs, active threads monitoring, and synthesis reports</li>
+            </ul>
+            <h2>Useful links</h2>
+            <ul>
+                <li><a href="http://jmeter.apache.org/usermanual/test_plan.html">JMeter Test Plan Documentation</a></li>
+                <li><a href="http://jmeter.apache.org/usermanual/component_reference.html">JMeter Component Reference</a></li>
+            </ul>
+        ]]></description>
+    </template>
+<template isTestPlan="true">
+    <name>bzm - Auto Correlation Recorder</name>
+    <fileName>/bin/templates/auto-correlation-recorder.jmx</fileName>
+    <description><![CDATA[
+        <h1>Template showing how to record Correlated Scripts</h1>
+        <h2>JMeter Configuration</h2>
+            <ul>
+                <li>JMeter Server Proxy port is set to 8888, you may want to change this</li>
+            </ul>
+        <h2>Browser Configuration</h2>
+        <p>Configure your browser so that it uses the JMeter proxy, set:
+            <ul>
+                <li>the host of the machine that runs JMeter</li>
+                <li>the port you setup in JMeter Server Proxy</li>
+            </ul>
+        </p>
+        <h2>Useful links</h2>
+            <ul>
+                <li><a href="https://blazemeter.github.io/CorrelationRecorder/">Official plugin documentation</a></li>
+                <li><a href="http://jmeter.apache.org/usermanual/jmeter_proxy_step_by_step.pdf" >http://jmeter.apache.org/usermanual/jmeter_proxy_step_by_step.pdf</a></li>
+                <li><a href="https://github.com/Blazemeter/CorrelationRecorder/blob/master/README.md" >https://github.com/Blazemeter/CorrelationRecorder/blob/master/README.md</a></li>
+            </ul>
+        ]]></description>
+</template>
+
+
+</templates>

@@ -1,0 +1,209 @@
+/* Dark Theme for JMeter Dashboard
+   This file contains all dark theme styles to be applied across all pages
+*/
+
+/* Base elements */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Page wrapper */
+#page-wrapper, #wrapper {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Panels */
+.panel {
+    background-color: #1e1e1e;
+    border-color: #333;
+}
+
+.panel-default > .panel-heading, .panel-heading, .portlet-header {
+    background-color: #2a2a2a !important;
+    border-color: #333;
+    color: #e0e0e0;
+}
+
+.panel-body, .portlet-content {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.panel-footer {
+    background-color: #2a2a2a;
+    border-top-color: #333;
+    color: #e0e0e0;
+}
+
+/* Tables */
+.table, table {
+    color: #e0e0e0;
+}
+
+.table-bordered, table {
+    border-color: #333;
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td,
+th, td {
+    border-color: #333;
+}
+
+/* Navigation */
+.navbar-default {
+    background-color: #1e1e1e !important;
+    border-color: #333 !important;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+    color: #e0e0e0 !important;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #ffffff !important;
+}
+
+/* Sidebar */
+.sidebar, .sidebar-nav, .navbar-static-side {
+    background-color: #1e1e1e !important;
+    border-color: #333 !important;
+}
+
+.sidebar ul li a, .nav > li > a, #side-menu li a {
+    color: #e0e0e0 !important;
+    background-color: #1e1e1e !important;
+}
+
+.sidebar ul li a:hover, .nav > li > a:hover, #side-menu li a:hover {
+    background-color: #2a2a2a !important;
+    color: #ffffff !important;
+}
+
+.sidebar ul li.active > a,
+.nav-second-level li.active > a,
+.nav-third-level li.active > a {
+    background-color: #2a2a2a !important;
+    color: #ffffff !important;
+}
+
+.sidebar .arrow {
+    color: #e0e0e0;
+}
+
+/* Links */
+a, a:hover, a:focus, a:active {
+    color: #4da6ff;
+}
+
+/* Buttons */
+.btn-default, .btn-link {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    border-color: #444;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active,
+.btn-link:hover, .btn-link:focus, .btn-link:active {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    border-color: #555;
+}
+
+/* Dropdown menus */
+.dropdown-menu {
+    background-color: #1e1e1e !important;
+    border-color: #333 !important;
+}
+
+.dropdown-menu > li > a {
+    color: #e0e0e0 !important;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: #2a2a2a !important;
+    color: #ffffff !important;
+}
+
+/* Form elements */
+input, select, textarea, .form-control {
+    background-color: #333;
+    color: #e0e0e0;
+    border-color: #444;
+}
+
+input:focus, select:focus, textarea:focus, .form-control:focus {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    border-color: #555;
+}
+
+/* Charts and graphs */
+.flot-chart-content, .flot-chart {
+    background-color: #1e1e1e;
+}
+
+svg text {
+    fill: #e0e0e0;
+}
+
+svg path, svg line, svg rect {
+    stroke: #555;
+}
+
+/* Typography */
+.page-title, .dashboard-title, .span-title, .click-title,
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #e0e0e0 !important;
+}
+
+/* Icons */
+.fa, .glyphicon {
+    color: #e0e0e0;
+}
+
+/* Navbar toggle */
+.navbar-default .navbar-toggle {
+    border-color: #444;
+    background-color: #2a2a2a;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #3a3a3a;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #e0e0e0;
+}
+
+/* Legends */
+.legend {
+    color: #e0e0e0;
+}
+
+.legend li label {
+    color: #e0e0e0;
+}
+
+.legend-disabled {
+    border-color: #555 !important;
+    opacity: 0.5;
+}
+
+/* Fix for any remaining white backgrounds */
+.bg-white, .bg-light, [class*="bg-light-"],
+.white-bg, .wrapper-content, .ibox-content, .ibox-title {
+    background-color: #1e1e1e !important;
+    color: #e0e0e0 !important;
+    border-color: #333 !important;
+} 

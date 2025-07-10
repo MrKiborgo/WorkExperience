@@ -1,0 +1,10 @@
+backups/
+temp-extract/
+META-INF/
+
+# Build artifacts
+.gradle/
+build/
+*.class
+*.jar
+target/
